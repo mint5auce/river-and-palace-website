@@ -64,8 +64,24 @@ img {
   place-items: center;
   padding: 44px 20px 52px;
   background:
-    linear-gradient(rgba(3, 13, 23, 0.08), rgba(3, 13, 23, 0.72)),
-    url("assets/images/header-banner-bg-wide.png") center top / max(100%, 1520px) auto no-repeat,
+    linear-gradient(
+      180deg,
+      rgba(115, 10, 8, 0.96) 0,
+      rgba(115, 10, 8, 0.96) 24%,
+      rgba(255, 214, 90, 0.78) 24%,
+      rgba(255, 214, 90, 0.78) calc(24% + 2px),
+      rgba(5, 22, 38, 0.98) calc(24% + 2px),
+      rgba(5, 22, 38, 0.98) 52%,
+      rgba(3, 13, 23, 1) 100%
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 214, 90, 0.10) 0,
+      rgba(255, 214, 90, 0.10) 1px,
+      transparent 1px,
+      transparent 88px
+    ),
+    url("assets/images/red-lacquer-texture.png"),
     linear-gradient(180deg, var(--shell-top), var(--shell-middle) 52%, var(--shell-bottom));
 }
 
@@ -85,8 +101,10 @@ img {
   top: 0;
   left: 0;
   right: 0;
-  height: 10px;
-  background: linear-gradient(90deg, var(--lacquer), var(--gold), var(--river), var(--gold), var(--lacquer));
+  height: 12px;
+  background:
+    linear-gradient(90deg, var(--lacquer), var(--gold), var(--river), var(--gold), var(--lacquer)),
+    var(--gold);
   box-shadow: 0 10px 28px rgba(255, 214, 90, 0.18);
 }
 
