@@ -20,6 +20,13 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
+## Future TestFlight Privacy Note
+
+When adding a public TestFlight link, also add a short privacy notice explaining
+that beta distribution is through Apple TestFlight and any TestFlight
+feedback/crash information shared with River and Palace is used only to improve
+the app.
+
 ## Publishing
 
 Publish from the `main` branch at the repository root using GitHub Pages.
