@@ -20,12 +20,14 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
-## Future TestFlight Privacy Note
+## TestFlight Privacy And Support
 
-When adding a public TestFlight link, also add a short privacy notice explaining
-that beta distribution is through Apple TestFlight and any TestFlight
-feedback/crash information shared with River and Palace is used only to improve
-the app.
+The TestFlight preparation includes privacy and support sections at `/#privacy` and `/#support`.
+The owner approved the complete policy, operator/contact details, 12-month retention period, and publication on 19 October 2026.
+The support mailbox passed a receive/reply test on the same date.
+No public TestFlight link, signup form, tracking, or email subscription is included.
+The app links to `https://riverandpalace.com/#privacy` and `https://riverandpalace.com/#support`.
+Publish approved changes through the existing GitHub Pages workflow.
 
 ## Publishing
 

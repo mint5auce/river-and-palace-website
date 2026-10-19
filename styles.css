@@ -251,6 +251,49 @@ h3 {
   font-size: 14px;
 }
 
+.policy {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  scroll-margin-top: 24px;
+}
+
+.policy__body {
+  max-width: 70ch;
+}
+
+.policy__body h3 {
+  margin-top: 28px;
+}
+
+.policy a {
+  color: var(--lacquer);
+  overflow-wrap: anywhere;
+  text-underline-offset: 0.2em;
+}
+
+.policy a:hover {
+  color: var(--ink);
+}
+
+.policy a:focus-visible,
+.site-footer a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.site-footer nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+
+.site-footer a {
+  color: var(--gold);
+  text-underline-offset: 0.2em;
+}
+
 @media (max-width: 800px) {
   .hero {
     min-height: 82vh;
